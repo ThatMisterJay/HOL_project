@@ -38,8 +38,10 @@ Thumbs.db
 
 # HOI4 files #
 ##############
-
+settings.txt
+gameplaysettings.txt
+dlc_signature
 dumps/
 logs/
 pdx_launcher/
-dir_to_shadercacheignore/
+shadercache/
