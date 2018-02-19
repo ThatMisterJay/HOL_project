@@ -1,0 +1,17 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_focus_propaganda_soviet"
+		texturefile = "gfx/interface/goals/focus_propaganda_soviet.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_fanaticism"
+		texturefile = "gfx/interface/goals/goal_fanatcism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_socialist_science"
+		texturefile = "gfx/interface/goals/focus_generic_socialist_science.dds"
+	}
+}
