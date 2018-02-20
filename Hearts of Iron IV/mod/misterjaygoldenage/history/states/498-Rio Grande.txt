@@ -20,13 +20,13 @@ state={
 			}
 		}
 		add_core_of = BRA
+		add_core_of = HOL
 		victory_points = {
 			5107 3
 		}
 		victory_points = {
 			5168 5
 		}
-
 	}
 
 	provinces={

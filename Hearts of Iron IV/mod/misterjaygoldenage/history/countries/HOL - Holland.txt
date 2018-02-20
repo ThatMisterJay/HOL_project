@@ -30,7 +30,21 @@ if = {
 		target = INS
 		autonomous_state = autonomy_integrated_puppet
 	}
-	else = { puppet = INS }
+	set_autonomy = {
+		target = SAF
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = PAK
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.1
+	}
+	else = {
+		puppet = INS
+		puppet = SAF
+		puppet = PAK
+	}
 }
 
 
