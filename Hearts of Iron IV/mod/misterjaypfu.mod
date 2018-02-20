@@ -1,4 +1,4 @@
-name="MisterJay's PFU Extension"
+﻿name="MisterJay's PFU Extension"
 path="mod/misterjaypfu/"
 tags={
 	"Balance"

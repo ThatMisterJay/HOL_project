@@ -1,4 +1,4 @@
-name="A new Golden Age"
+﻿name="A new Golden Age"
 path="mod/misterjaygoldenage/"
 tags={
 	"Alternative History"
