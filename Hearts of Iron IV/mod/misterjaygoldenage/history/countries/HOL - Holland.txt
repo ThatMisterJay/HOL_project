@@ -31,19 +31,29 @@ if = {
 		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
-		target = SAF
+		target = DIN
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = COG
 		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = SAF
+		autonomous_state = autonomy_colony
 		freedom_level = 0.2
 	}
 	set_autonomy = {
 		target = PAK
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_dominion
 		freedom_level = 0.1
 	}
 	else = {
 		puppet = INS
 		puppet = SAF
 		puppet = PAK
+		puppet = COG
+		puppet = DIN
 	}
 }
 
@@ -137,6 +147,18 @@ set_politics = {
 
 set_convoys = 500
 set_national_unity = 0.75
+
+
+create_faction = Allies
+add_to_faction = HOL
+add_to_faction = SAF
+add_to_faction = NZL
+add_to_faction = COG
+add_to_faction = DIN
+add_to_faction = INS
+add_to_faction = PAK
+add_to_faction = FRA
+
 
 add_ideas = {
 	HOL_economic_crisis1

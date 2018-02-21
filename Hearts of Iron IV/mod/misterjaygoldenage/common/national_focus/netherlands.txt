@@ -72,6 +72,7 @@ focus_tree = {
 		relative_position_id = HOL_depillarize
 
 		available_if_capitulated = yes
+		available = { date > 1950.1.1}
 
 
 		completion_reward = {
@@ -99,6 +100,8 @@ focus_tree = {
 			}
 		}
 	}
+
+	#TODO NEED WAY MORE FOCUSES
 
 	focus = {
 		id = HOL_workers_union

@@ -1,0 +1,150 @@
+﻿division_template = {
+	name = "Indian Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Armored-Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	#India Command
+
+	#Northern Command
+
+	division= {
+		name = "Pashawar District"
+		location = 12717
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "Kohat District"
+		location = 12786
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "Rawalpindi District"
+		location = 7064
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "Lahore District"
+		location = 11952
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "Waziristan District"
+		location = 3456
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	#Eastern Command
+	division= {
+		name = "Meerut District"
+		location = 2086
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "Lucknow District"
+		location = 5040
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "Presidency & Assam District"
+		location = 2105
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	#Southern Command
+	division= {
+		name = "Deccan District"
+		location = 9975
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "Bombay District"
+		location = 12080
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "Madras District"
+		location = 4953
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+}
+
+air_wings = {
+	### AHQ India
+	439 = {
+		### AHQ India -- Fairey Gordons, Battles
+		CAS_equipment_1 = {
+			owner = "RAJ"
+			amount = 80
+		}
+	}
+}
+
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "RAJ"
+		}
+		requested_factories = 1
+		progress = 0.12
+		efficiency = 100
+	}
+}
