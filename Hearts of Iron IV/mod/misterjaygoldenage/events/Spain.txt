@@ -18,11 +18,11 @@ country_event = {
 		tag = SPR
 		has_defensive_war = no
 		NOT = { has_government = fascism }
-		date > 1936.1.1 # Trigger at some point after 1936 elections
+		date > 1936.1.1
 	}
 
 	mean_time_to_happen = {
-		days = 30	# Historical outbreak time after elections
+		days = 30
 	}
 
 	option = { # Support Nationalists
