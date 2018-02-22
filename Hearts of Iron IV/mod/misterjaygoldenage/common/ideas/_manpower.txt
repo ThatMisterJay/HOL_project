@@ -11,7 +11,7 @@ ideas = {
 
 			available = {
 				has_government = democratic
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				threat < 0.5
 			}
 
 			modifier = {
@@ -20,9 +20,7 @@ ideas = {
 				industrial_capacity_factory = 0.05
 				production_speed_buildings_factor = 0.1
 				research_time_factor = -0.03
-
 			}
-
 			cancel_if_invalid = no
 		}
 
@@ -33,7 +31,6 @@ ideas = {
 			level = 6
 
 			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
 				if = {
 					limit = {
 						original_tag = HUN
@@ -45,16 +42,13 @@ ideas = {
 				NOT = { has_idea = isolation }
 			}
 
-			ai_will_do = {
-   				factor = 1
-			}
+			ai_will_do = { factor = 1 }
 
 			modifier = {
 				conscription = 0.02
 				training_time_factor = -0.05
 				industrial_capacity_factory = 0.03
 				production_speed_buildings_factor = 0.05
-				research_time_factor = -0.01
 			}
 
 			default = yes
@@ -197,19 +191,12 @@ ideas = {
 
 
 			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
 				OR = {
 					has_government = fascism
 					has_government = communism
 					AND = {
 						has_war = yes
 						enemies_strength_ratio > 0.6
-						#any_enemy_country = {
-						#	strength_ratio = {
-						#		tag = ROOT
-						#		ratio > 0.6
-						#	}
-						#}
 					}
 				}
 
@@ -281,7 +268,7 @@ ideas = {
 			level = 3
 
 			modifier = {
-				conscription = 0.09
+				conscription = 0.1
 				industrial_capacity_factory = -0.1
 				industrial_capacity_dockyard = -0.1
 				production_speed_buildings_factor = -0.1
@@ -293,17 +280,10 @@ ideas = {
 
 		all_adults_serve = {
 
-
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.2 group = mobilization_laws }
 				has_war = yes
 				enemies_strength_ratio > 0.75
-				#any_enemy_country = {
-				#	strength_ratio = {
-				#		tag = ROOT
-				#		ratio > 0.75
-				#	}
-				#}
 
 				if = {
 					limit = {
@@ -373,12 +353,11 @@ ideas = {
 			level = 2
 
 			modifier = {
-				conscription = 0.11
-				industrial_capacity_factory = -0.3
-				industrial_capacity_dockyard = -0.3
-				production_speed_buildings_factor = -0.3
-				#XP from reinforcement penalty (small)
-				training_time_factor = 0.3
+				conscription = 0.13
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+				production_speed_buildings_factor = -0.25
+				training_time_factor = 0.4
 			}
 
 			cancel_if_invalid = no
@@ -388,17 +367,10 @@ ideas = {
 
 
 			available = {
-				has_government = fascism
 				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
 				has_war = yes
 
 				enemies_strength_ratio > 1
-				#any_enemy_country = {
-				#	strength_ratio = {
-				#		tag = ROOT
-				#		ratio > 1
-				#	}
-				#}
 				if = {
 					limit = {
 						original_tag = AST
@@ -430,7 +402,7 @@ ideas = {
 					limit = {
 						original_tag = HUN
 						has_dlc = "Death or Dishonor"
-			}
+					}
 					NOT = { has_idea = HUN_treaty_of_triannon }
 				}
 			}
@@ -459,11 +431,11 @@ ideas = {
 			level = 1
 
 			modifier = {
-				conscription = 0.13
+				conscription = 0.15
 				industrial_capacity_factory = -0.4
 				industrial_capacity_dockyard = -0.4
 				production_speed_buildings_factor = -0.4
-				training_time_factor = 0.5
+				training_time_factor = 0.6
 			}
 
 			cancel_if_invalid = no

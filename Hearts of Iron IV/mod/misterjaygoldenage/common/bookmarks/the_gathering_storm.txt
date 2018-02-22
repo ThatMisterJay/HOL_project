@@ -4,8 +4,22 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "HOL"
 		default = yes
+
+		"HOL"={
+			history = "HOL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				HOL_economic_crisis1
+				HOL_pillarized_society
+				HOL_queen_wilhelmina
+			}
+			focuses = {
+				HOL_new_red_beacon
+				HOL_side_with_germany
+			}
+		}
 
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
@@ -119,6 +133,19 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"RAJ"={
+			minor = yes
+			history = "RAJ_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				RAJ_agrarian_society
+				RAJ_princely_states
+			}
+			focuses = {
+				RAJ_indian_gurkhas
+				RAJ_the_smiling_buddha
+			}
+		}
 		"NZL"={
 			minor = yes
 			history = "NZL_GATHERING_STORM_DESC"
@@ -143,47 +170,46 @@ bookmarks = {
 				SAF_secure_interests_in_africa
 			}
 		}
-		"RAJ"={
+		"SPR"={
 			minor = yes
-			history = "RAJ_GATHERING_STORM_DESC"
-			ideology = neutrality
+			history = "SPR_GATHERING_STORM_DESC"
+			ideology = democratic
 			ideas = {
-				RAJ_agrarian_society
-				RAJ_princely_states
+				placeholder_idea
 			}
 			focuses = {
-				RAJ_indian_gurkhas
-				RAJ_the_smiling_buddha
 			}
 		}
-
-		"HUN"={
+		"INS"={
 			minor = yes
-			history = "HUN_GATHERING_STORM_DESC"
-			ideology = neutrality
+			history = "INS_GATHERING_STORM_DESC"
+			ideology = democratic
 			ideas = {
-				HUN_treaty_of_triannon
+				placeholder_idea
 			}
 			focuses = {
-				HUN_secret_rearmament
-				HUN_renounce_the_treaty_of_trianon
 			}
 		}
-
-		"ROM"={
+		"DIN"={
 			minor = yes
-			history = "ROM_GATHERING_STORM_DESC"
+			history = "DIN_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				ROM_king_carol_ii_hedonist
-				neutrality_idea
+				placeholder_idea
 			}
 			focuses = {
-				ROM_institute_royal_dictatorship
-				ROM_preserve_greater_romania
 			}
 		}
-
+		"PAK"={
+			minor = yes
+			history = "PAK_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				placeholder_idea
+			}
+			focuses = {
+			}
+		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

@@ -1,276 +1,329 @@
 ﻿division_template = {
-	name = "Brigada Internacionales"			# International volunteers -- poor equipment, no experience (militia)
+	name = "Brigada de Infantería"			# International volunteers -- poor equipment, no experience (militia)
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 0 y = 2 }
 	}
 }
 
 units = {
 	division = {
-		name = "I Brigada Internacionales"
+		name = "I Brigada de Infantería"
 		location = 3938  # Madrid
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "II Brigada Internacionales"
+		name = "II Brigada de Infantería"
 		location = 3938  # Madrid
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "III Brigada Internacionales"
+		name = "III Brigada de Infantería"
 		location = 3938  # Madrid
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "IV Brigada Internacionales"
+		name = "IV Brigada de Infantería"
 		location = 3938  # Madrid
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "V Brigada Internacionales"
+		name = "V Brigada de Infantería"
 		location = 3938  # Madrid
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 
 	division = {
-		name = "VI Brigada Internacionales"
-		location = 9764  # Barcelona
-		division_template = "Brigada Internacionales"
+		name = "VI Brigada de Infantería"
+		location = 885  # Barcelona
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "VII Brigada Internacionales"
-		location = 9764  # Barcelona
-		division_template = "Brigada Internacionales"
+		name = "VII Brigada de Infantería"
+		location = 885  # Barcelona
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "VIII Brigada Internacionales"
-		location = 9764  # Barcelona
-		division_template = "Brigada Internacionales"
+		name = "VIII Brigada de Infantería"
+		location = 885  # Barcelona
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "IX Brigada Internacionales"
+		name = "IX Brigada de Infantería"
+		location = 740  # Valencia
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "X Brigada de Infantería"
+		location = 740  # Valencia
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "XI Brigada de Infantería"
 		location = 6906  # Valencia
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "X Brigada Internacionales"
-		location = 6906  # Valencia
-		division_template = "Brigada Internacionales"
-	}
-	division = {
-		name = "XI Brigada Internacionales"
-		location = 6906  # Valencia
-		division_template = "Brigada Internacionales"
-	}
-	division = {
-		name = "XII Brigada Internacionales"
+		name = "XII Brigada de Infantería"
 		location = 10024  # Murcia
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "XIII Brigada Internacionales"
+		name = "XIII Brigada de Infantería"
 		location = 10024  # Murcia
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "XIV Brigada Internacionales"
+		name = "XIV Brigada de Infantería"
 		location = 10024  # Murcia
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "XV Brigada Internacionales"
+		name = "XV Brigada de Infantería"
 		location = 9979  # Malaga
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "XVI Brigada Internacionales"
+		name = "XVI Brigada de Infantería"
 		location = 9979  # Malaga
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "XVII Brigada Internacionales"
+		name = "XVII Brigada de Infantería"
 		location = 9979  # Malaga
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "XVIII Brigada Internacionales"
+		name = "XVIII Brigada de Infantería"
 		location = 740  # Bilbao
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "XIX Brigada Internacionales"
+		name = "XIX Brigada de Infantería"
 		location = 740  # Bilbao
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "XX Brigada Internacionales"
+		name = "XX Brigada de Infantería"
 		location = 740  # Bilbao
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "XXI Brigada Internacionales"
+		name = "XXI Brigada de Infantería"
 		location = 3938  # Madrid
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "XXII Brigada Internacionales"
+		name = "XXII Brigada de Infantería"
 		location = 9764  # Barcelona
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "XXIII Brigada Internacionales"
+		name = "XXIII Brigada de Infantería"
 		location = 9764  # Barcelona
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "XXIV Brigada Internacionales"
+		name = "XXIV Brigada de Infantería"
 		location = 9764  # Barcelona
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "XXV Brigada Internacionales"
+		name = "XXV Brigada de Infantería"
 		location = 9764  # Barcelona
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "XXVI Brigada Internacionales"
+		name = "XXVI Brigada de Infantería"
 		location = 6906  # Valencia
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 	division = {
-		name = "XXVII Brigada Internacionales"
+		name = "XXVII Brigada de Infantería"
 		location = 6906  # Valencia
-		division_template = "Brigada Internacionales"
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
 	}
 
 	division = {
-		name = "XXVIII Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XXVIII Brigada de Infantería"
+		location = 3938
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 
 	division = {
-		name = "XXIX Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XXIX Brigada de Infantería"
+		location = 3938
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XXX Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XXX Brigada de Infantería"
+		location = 3938
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XXXI Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XXXI Brigada de Infantería"
+		location = 3938
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XXXII Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XXXII Brigada de Infantería"
+		location = 3938
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XXXIII Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XXXIII Brigada de Infantería"
+		location = 3938
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XXXIV Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XXXIV Brigada de Infantería"
+		location = 3938
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XXXV Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XXXV Brigada de Infantería"
+		location = 9700
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XXXVI Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XXXVI Brigada de Infantería"
+		location = 9700
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XXXVII Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XXXVII Brigada de Infantería"
+		location = 9700
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XXXVIII Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XXXVIII Brigada de Infantería"
+		location = 9700
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XXXIX Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XXXIX Brigada de Infantería"
+		location = 9700
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XL Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XL Brigada de Infantería"
+		location = 9700
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XLI Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XLI Brigada de Infantería"
+		location = 9700
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XLII Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XLII Brigada de Infantería"
+		location = 9700
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XLIII Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XLIII Brigada de Infantería"
+		location = 9700
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XLIV Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XLIV Brigada de Infantería"
+		location = 9700
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XLV Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XLV Brigada de Infantería"
+		location = 6993
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XLVI Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XLVI Brigada de Infantería"
+		location = 6993
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XLVII Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XLVII Brigada de Infantería"
+		location = 6993
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XLVIII Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XLVIII Brigada de Infantería"
+		location = 6993
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "XLIX Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "XLIX Brigada de Infantería"
+		location = 6993
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "L Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "L Brigada de Infantería"
+		location = 6993
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "LI Brigada Internacionales"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "LI Brigada de Infantería"
+		location = 6993
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 	division = {
-		name = "LII Brigada Internacionales 25"
-		location = 6993  
-		division_template = "Brigada Internacionales"
-	}	
+		name = "LII Brigada de Infantería 25"
+		location = 6993
+		division_template = "Brigada de Infantería"
+		start_equipment_factor = 0.75
+	}
 
 }

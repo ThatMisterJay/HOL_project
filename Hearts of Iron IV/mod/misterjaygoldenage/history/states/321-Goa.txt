@@ -18,6 +18,7 @@ state={
 			}
 		}
 		add_core_of = DIN
+		add_core_of = RAJ
 	}
 
 	provinces={

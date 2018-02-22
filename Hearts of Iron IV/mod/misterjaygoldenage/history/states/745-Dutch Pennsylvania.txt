@@ -16,6 +16,7 @@ state={
 				naval_base = 8
 			}
 		}
+		add_core_of = FAE
 		add_core_of = USA
 		add_core_of = HOL
 		victory_points = { 6845 20 }

@@ -28,6 +28,12 @@ set_convoys = 20
 
 set_cosmetic_tag = DIN_HOL # Dutch India
 
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = allied_research
+}
+
 1939.1.1 = {
 
 	add_political_power = 1198

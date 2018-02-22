@@ -30,5 +30,3 @@ units = {
 		bonus = 1
 	}
 }
-
-#assign_all_forces_to = "Erwin Rommel"

@@ -26,6 +26,7 @@ state={
 			}
 
 		}
+		add_core_of = FAE
 		add_core_of = USA
 		add_core_of = HOL
 		victory_points = {

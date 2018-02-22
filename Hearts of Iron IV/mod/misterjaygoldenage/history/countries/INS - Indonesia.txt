@@ -8,7 +8,7 @@ set_research_slots = 2
 # clone of Holland
 set_technology = {
 	infantry_weapons = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_recon = 1
 	early_fighter = 1
 	early_bomber = 1
@@ -26,14 +26,14 @@ set_convoys = 25
 set_politics = {
 
 	parties = {
-		democratic = { 
+		democratic = {
 			popularity = 10
 		}
 
 		fascism = {
 			popularity = 10
 		}
-		
+
 		communism = {
 			popularity = 30
 		}
@@ -50,7 +50,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = socialism #Marhaenism his own unique mix of stuff
 	traits = {
-		
+
 	}
 }
 
@@ -59,9 +59,9 @@ create_country_leader = {
 	desc = ""
 	picture = "GFX_portrait_indonesia_at_van_starkenborgh"
 	expire = "1953.3.1"
-	ideology = conservatism 
+	ideology = conservatism
 	traits = {
-		
+
 	}
 }
 
@@ -72,7 +72,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = marxism
 	traits = {
-		
+
 	}
 }
 
@@ -81,9 +81,9 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology # except for no connection to catholicism, this party perfectly fits into falangism 
+	ideology = fascism_ideology # except for no connection to catholicism, this party perfectly fits into falangism
 	traits = {
-		
+
 	}
 }
 
@@ -94,11 +94,17 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = moderatism
 	traits = {
-		
+
 	}
 }
 
 set_cosmetic_tag = INS_HOL # Netherlands East Indies
+
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = allied_research
+}
 
 1939.1.1 = {
 	add_political_power = 1198
@@ -115,7 +121,7 @@ set_cosmetic_tag = INS_HOL # Netherlands East Indies
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-	
+
 	set_technology = {
 		gwtank = 1
 		basic_light_tank = 1
@@ -151,4 +157,3 @@ set_cosmetic_tag = INS_HOL # Netherlands East Indies
 		dispersed_industry2 = 1
 	}
 }
-
