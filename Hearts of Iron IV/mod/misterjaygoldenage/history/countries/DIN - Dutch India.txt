@@ -15,15 +15,6 @@ set_technology = {
 	CAS1 = 1
 }
 
-if = {
-	limit = { has_dlc = "Together for Victory" }
-
-	add_ideas = {
-	}
-
-	add_to_tech_sharing_group = commonwealth_research
-}
-
 set_convoys = 20
 
 set_cosmetic_tag = DIN_HOL # Dutch India
@@ -105,7 +96,7 @@ set_politics = {
 
 	parties = {
 		democratic = {
-			popularity = 17
+			popularity = 74
 		}
 
 		fascism = {
@@ -117,11 +108,11 @@ set_politics = {
 		}
 
 		neutrality = {
-			popularity = 80
+			popularity = 23
 		}
 	}
 
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
