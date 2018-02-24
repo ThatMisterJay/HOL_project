@@ -27,20 +27,21 @@ set_politics = {
 
 	parties = {
 		democratic = {
-			popularity = 10
+			popularity = 40
 		}
 
 		fascism = {
-			popularity = 10
+			popularity = 5
 		}
 
 		communism = {
-			popularity = 30
+			popularity = 20
 		}
 		neutrality = {
-			popularity = 50
+			popularity = 35
 		}
 	}
+	ruling_party = democratic
 }
 
 create_country_leader = {

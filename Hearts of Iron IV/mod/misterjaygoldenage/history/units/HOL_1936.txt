@@ -19,6 +19,24 @@
 	}
 }
 
+division_template = {
+	name = "Garnizoen Divisie"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	}
+	support = { engineer = { x = 0 y = 0 } }
+}
+
 units = {
 	##### OLZ Nederland #####
 	### Veldleger ###
@@ -104,8 +122,8 @@ units = {
 		start_equipment_factor = 0.8
 	}
 	division= {
-		name = "Divisie van Philadelphia"
-		location = 3878  # New Amsterdam
+		name = "Divisie van Delaware"
+		location = 6882  # Newark
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
@@ -124,6 +142,125 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 	}
+	division= {
+		name = "Canadese Infanterie Divisie"
+		location = 4285 # St Johns
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division= {
+		name = "Divisie van Nova Scotia"
+		location = 7361  # Halifax
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+
+	##############
+	### KUWAIT ###
+	##############
+
+	division= {
+		name = "Divisie van Koeweit"
+		location = 8085  # Kuwait
+		division_template = "Garnizoen Divisie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Divisie van Basrah"
+		location = 8085  # Kuwait
+		division_template = "Garnizoen Divisie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
+
+	##############
+	## Suriname ##
+	##############
+
+	division= {
+		name = "Divisie van Suriname"
+		location = 12828  # Suriname
+		division_template = "Garnizoen Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Divisie van Guyana"
+		location = 4982  # British Guyana
+		division_template = "Garnizoen Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	#################
+	### Singapore ###
+	#################
+
+	division= {
+		name = "Divisie van Singapore"
+		location = 12299  # Singapore
+		division_template = "Garnizoen Divisie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Divisie van Kota Bharu"
+		location = 7329  # Kota Bharu
+		division_template = "Garnizoen Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Divisie van Kuala Lumpur"
+		location = 10297  # Kuala Lumpur
+		division_template = "Garnizoen Divisie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
+
+	#############
+	### INDIA ###
+	#############
+
+	division= {
+		name = "Divisie van Birma"
+		location = 1330  # Birma
+		division_template = "Garnizoen Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "1e Divisie van Pakistan"
+		location = 11968  # Pakistan
+		division_template = "Garnizoen Divisie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Divisie van Pakistan"
+		location = 4245  # Pakistan
+		division_template = "Garnizoen Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Divisie van Bombay"
+		location = 1349  # Bombay
+		division_template = "Garnizoen Divisie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
 
 	##### NAVAL UNITS #####
 	### ROYAL NAVY ###

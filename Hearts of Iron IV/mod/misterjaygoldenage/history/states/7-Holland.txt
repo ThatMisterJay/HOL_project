@@ -19,9 +19,11 @@ state={
 			air_base = 5
 			3314 = {
 				naval_base = 10
+				coastal_bunker = 2 
 			}
 			9498 = {
 				naval_base = 5
+				coastal_bunker = 5
 			}
 		}
 		add_extra_state_shared_building_slots = 4

@@ -73,20 +73,18 @@ if = {
 	}
 	set_autonomy = {
 		target = PAK
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_colony
 		freedom_level = 0.1
 	}
 	set_autonomy = {
 		target = BUR
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_colony
 		freedom_level = 0.1
 	}
 	else = {
 		puppet = INS
 		puppet = SAF
-		puppet = PAK
 		puppet = COG
-		puppet = BUR
 	}
 }
 

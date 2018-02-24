@@ -1,12 +1,12 @@
-﻿
-
-division_template = {
-	name = "KNIL Infantry Brigade"		
+﻿division_template = {
+	name = "KNIL Infantry Brigade"
 	# Note: originally formed in 1939
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 	}
 }
 
@@ -16,57 +16,96 @@ units = {
 	######## LAND OOB ########
 	##### Indonesian High Command #####
 	division = {
-		name = "1st KNIL Infantry Brigade"
+		name = "1e KNIL Infantry Brigade"
 		location = 10237 #Balikapan/Borneo
-		division_template = "KNIL Infantry Brigade"		
+		division_template = "KNIL Infantry Brigade"
 		start_experience_factor = 0.0
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.4
 	}
-	
+
 	division = {
-		name = "2nd KNIL Infantry Brigade"
+		name = "2e KNIL Infantry Brigade"
 		location = 12268 #Palembang/Sumatra
-		division_template = "KNIL Infantry Brigade"		
+		division_template = "KNIL Infantry Brigade"
 		start_experience_factor = 0.0
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.4
 	}
 	division = {
-		name = "3rd KNIL Infantry Brigade"
+		name = "3e KNIL Infantry Brigade"
 		location = 4652 #Medan/Palembang
-		division_template = "KNIL Infantry Brigade"		
+		division_template = "KNIL Infantry Brigade"
 		start_experience_factor = 0.0
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.4
 	}
 	division = {
-		name = "4th KNIL Infantry Brigade"
+		name = "4e KNIL Infantry Brigade"
 		location = 10263 #Celebes
-		division_template = "KNIL Infantry Brigade"		
+		division_template = "KNIL Infantry Brigade"
 		start_experience_factor = 0.0
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.4
 	}
 ### Java defense, replacing 3 full divisions at 1/3 strength
 	division = {
-		name = "5th KNIL Infantry Brigade"
+		name = "5e KNIL Infantry Brigade"
 		location = 4608 #Java
-		division_template = "KNIL Infantry Brigade"		
-		start_experience_factor = 0.2 #regulars
+		division_template = "KNIL Infantry Brigade"
+		start_experience_factor = 0.4 #regulars
 	}
 
 	division = {
-		name = "6th KNIL Infantry Brigade"
+		name = "6e KNIL Infantry Brigade"
 		location = 7642 #Java
-		division_template = "KNIL Infantry Brigade"		
-		start_experience_factor = 0.2
-		
+		division_template = "KNIL Infantry Brigade"
+		start_experience_factor = 0.4
+
 	}
 
 	division = {
-		name = "7th KNIL Infantry Brigade"
+		name = "7de KNIL Infantry Brigade"
 		location = 7381 #Java
-		division_template = "KNIL Infantry Brigade"		
-		start_experience_factor = 0.2
+		division_template = "KNIL Infantry Brigade"
+		start_experience_factor = 0.4
 	}
 
+	division = {
+		name = "8e KNIL Infantry Brigade"
+		location = 7371 #Kuching
+		division_template = "KNIL Infantry Brigade"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.4
+	}
+
+	division = {
+		name = "9e KNIL Infantry Brigade"
+		location = 1208 #North Borneo
+		division_template = "KNIL Infantry Brigade"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.4
+	}
+
+	division = {
+		name = "10e KNIL Infantry Brigade"
+		location = 10297 #Kuala Lumpur
+		division_template = "KNIL Infantry Brigade"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.4
+	}
+
+	division = {
+		name = "11e KNIL Infantry Brigade"
+		location = 7329 #Kota Bharu
+		division_template = "KNIL Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+
+	division = {
+		name = "12e KNIL Infantry Brigade"
+		location = 12299 #Singapore
+		division_template = "KNIL Infantry Brigade"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.4
+	}
 }
 
 

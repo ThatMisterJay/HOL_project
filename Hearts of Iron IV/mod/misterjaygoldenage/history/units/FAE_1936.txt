@@ -62,9 +62,11 @@ division_template = {
 	name = "Garrison Brigade"  		# used for island defense (older equipment, lower experience)
 
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
@@ -81,7 +83,7 @@ units = {
 		location = 10867
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.4
 
 	}
 	division = {
@@ -89,7 +91,7 @@ units = {
 		location = 9814
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.4
 
 	}
 
@@ -301,7 +303,7 @@ units = {
 		location = 610
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.4
 
 	}
 	division= {
@@ -309,7 +311,7 @@ units = {
 		location = 12211
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.4
 
 	}
 	division= {
@@ -317,7 +319,7 @@ units = {
 		location = 7315
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.4
 
 	}
 
@@ -327,7 +329,7 @@ units = {
 		location = 1562
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.4
 
 	}
 	division= {
@@ -335,7 +337,7 @@ units = {
 		location = 1562
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.4
 
 	}
 	division= {
@@ -343,7 +345,7 @@ units = {
 		location = 12211
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.4
 
 	}
 	division= {
@@ -351,7 +353,7 @@ units = {
 		location = 9814
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.4
 
 	}
 	division= {
@@ -359,7 +361,7 @@ units = {
 		location = 7315
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.4
 
 	}
 

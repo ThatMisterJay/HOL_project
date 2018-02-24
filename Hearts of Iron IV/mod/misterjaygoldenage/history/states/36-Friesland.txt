@@ -14,7 +14,13 @@ state={
 			dockyard = 3
 			6336 = {
 				naval_base = 3
+				coastal_bunker = 2
+				bunker = 3
 			}
+			11318 = { bunker = 3 }
+			9309 = { bunker = 3 }
+			9363 = { bunker = 3 }
+			9403 = { bunker = 3 }
 		}
 	}
 
