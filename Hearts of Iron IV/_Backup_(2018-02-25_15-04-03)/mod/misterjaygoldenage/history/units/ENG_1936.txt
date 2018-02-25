@@ -1,0 +1,661 @@
+﻿division_template = {
+	name = "Infantry Division"			# 1st - 5th divisions = fully equipped, others = reserve divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Tank Brigade"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Colonial Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+
+units = {
+	#Aldershot Command
+	division= {
+		name = "1st Infantry Division"
+		location = 9458
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "2nd Infantry Division"
+		location = 9458
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	#Scottish Command
+	division= {
+		name = "51st 'Highland' Infantry Division"
+		location = 3273
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "52nd 'Lowland' Infantry Division"
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#Northern Command
+	division= {
+		name = "5th Cavalry Brigade"
+		location = 11297
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "5th Infantry Division"
+		location = 351
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "50th 'Northumbrian' Motorized Division"
+		location = 9397
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "49th 'West Riding' Infantry Division"
+		location = 11218
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#Eastern Command
+	division= {
+		name = "4th Infantry Division"
+		location = 11253
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "44th 'Home Counties' Infantry Division"
+		location = 11221
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "54th 'East Anglia' Infantry Division"
+		location = 3287
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#Western Command
+	division= {
+		name = "6th Cavalry Brigade"
+		location = 407
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "42nd 'East Lancashire' Infantry Division"
+		location = 6318
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "53rd 'Welsh' Infantry Division"
+		location = 311
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "55th 'West Lancashire' Infantry Division"
+		location = 6384
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#Southern Command
+	division= {
+		name = "Royal Tank Regiment"
+		location = 9239
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "3rd Infantry Division"
+		location = 13070
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "43rd 'Wessex' Infantry Division"
+		location = 3369
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division= {
+		name = "48th 'South Midland' Infantry Division"
+		location = 6351
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division= {
+		name = "London Fortress"
+		location = 6103
+		division_template = "Infantry Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
+	}
+
+	### Middle East Command ###
+	#Sudan
+	division= {
+		name = "Sudan Defense Force"
+		location = 12806
+		division_template = "Colonial Garrison"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+	#Palestine & Transjordan
+	division= {
+		name = "Sinai Area"
+		location = 4161
+		division_template = "Colonial Garrison"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#Aden
+	division= {
+		name = "Aden Defense Force"
+		location = 12821
+		division_template = "Colonial Garrison"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#Egypt
+	division= {
+		name = "Cairo Force"
+		location = 7011
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Canal Brigade"
+		location = 1155
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+	division= {
+		name = "The Cavalry Brigade (Egypt)"
+		location = 4076
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#Gibraltar
+	division= {
+		name = "Suez Defense Force"
+		location = 12049
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+	}
+
+	#Malta
+	division= {
+		name = "Malta Command"
+		location = 12003
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+	}
+
+	###East Africa
+	division= {
+		name = "East Africa Force"
+		location = 1939
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division= {
+		name = "Southern Africa Force"
+		location = 12911
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division= {
+		name = "Northern Rhodesia Groups"
+		location = 1939
+		division_template = "Colonial Garrison"			# Colonial militia (lowest equipment and experience)
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_equipment_factor = 0.3
+	}
+
+
+
+	##### NAVAL UNITS #####
+	### HOME COMMAND ###
+	navy = {
+		name = "Home Fleet"
+		base = 11297
+		location = 11297 # Hull
+		# 7th Cruiser Squadron
+		ship = { name = "HMS Ramillies" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+
+		ship = { name = "HMS Hood" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG version_name = "Admiral Class" } } }
+
+		ship = { name = "HMS Enterprise" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+		ship = { name = "HMS Achilles" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }		# to RNZN 1941
+		ship = { name = "HMS Leander" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }		# to RNZN 1941
+		ship = { name = "HMS Dragon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Dunedin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Colombo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+
+		ship = { name = "HMS Active" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Keith" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Foresight" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Sabre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Shikari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Wallace" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Valorous" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Whitley" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Broke" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Wanderer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Whitehall" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Witch" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Verity" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Volunteer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Witherington" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Wolverine" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Velox" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Watchman" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Douglas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Wishart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Wrestler" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+	}
+	navy = {
+		name = "Portsmouth Fleet"
+		base = 9458
+		location = 9458 # Portsmouth
+		ship = { name = "HMS Suffolk" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+		### 9th Destroyer Flotilla
+		# Destroyer Division 17
+		ship = { name = "HMS London" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+		ship = { name = "HMS Curacoa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+
+		ship = { name = "HMS Blanche" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Boadicea" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Brazen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Brilliant" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Ambuscade" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Skate" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Saladin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Scimitar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Sardonyx" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Winchester" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Versatile" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Vimiera" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Whirlwind" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Warwick" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+	}
+	navy = {
+		name = "2nd Submarine Flotilla"
+		base = 11064
+		location = 11064 # Scapa Flow
+		ship = { name = "HMS Oxley" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+		ship = { name = "HMS H32" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS L26" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS L27" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+	}
+	navy = {
+		name = "3rd Submarine Flotilla"
+		base = 9458
+		location = 9458 # Portsmouth
+		ship = { name = "HMS Oberon" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+		ship = { name = "HMS Thames" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+		ship = { name = "HMS H43" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS H44" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS H49" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS H50" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+	}
+
+	### MEDITERRANIAN FLEET ###
+	navy = {
+		name = "Mediterranean Fleet"
+		base = 4076
+		location = 4076 # Alexandria
+		ship = { name = "HMS Shropshire" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+		ship = { name = "HMS Sussex" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+		ship = { name = "HMS Arethusa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Amphion Class" } } }
+		ship = { name = "HMS Danae" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Durban" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Despatch" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Duncan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Decoy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Defender" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Duchess" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Delight" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Dainty" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Daring" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Diamond" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Diana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+	}
+	navy = {
+		name = "1st Submarine Flotilla"
+		base = 4076
+		location = 4076 # Alexandria
+		ship = { name = "HMS Sealion" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
+		ship = { name = "HMS Shark" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
+		ship = { name = "HMS Snapper" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
+		ship = { name = "HMS Salmon" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
+		ship = { name = "HMS Porpoise" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
+		ship = { name = "HMS Otway" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+		ship = { name = "HMS Osiris" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+		ship = { name = "HMS Oswald" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+	}
+	navy = {
+		name = "South America Squadron"
+		base = 12960
+		location = 12960 # Falkland Is.
+		ship = { name = "HMS Cumberland" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+		ship = { name = "HMS Ajax" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+		ship = { name = "HMS Neptune" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+		ship = { name = "HMS Dauntless" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Vansittart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Venomous" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Wivern" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+	}
+}
+
+
+air_wings = {
+	### RAF Fighter Command ###
+	129 = {
+		### No. 11 Fighter Command, Middlesex area -- Hawker Demons, Furys, Gloster Gauntlets
+		fighter_equipment_0 = {
+			owner = "ENG"
+			amount = 100
+		}
+	}
+	130 = {
+		### No. 11 Fighter Command, Essex area -- Hawker Demons, Furys, Gloster Gauntlets
+		fighter_equipment_0 = {
+			owner = "ENG"
+			amount = 48
+		}
+	}
+	127 = {
+		### No. 12 Fighter Command, Nottingham area -- Hawker Demons, Furys, Gloster Gauntlets
+		fighter_equipment_0 = {
+			owner = "ENG"
+			amount = 48
+		}
+	}
+	131 = {
+		### No. 13 Fighter Command, Newcastle -- Hawker Demons, Furys, Gloster Gauntlets
+		fighter_equipment_0 = {
+			owner = "ENG"
+			amount = 36
+		}
+
+	}
+
+	### RAF Bomber Command ###
+	125 = {
+		### No. 1 Bomber Command, East Anglia area -- Fairey Gordons, Battles
+		CAS_equipment_1 = {
+			owner = "ENG"
+			amount = 36
+		}
+	}
+	125 = {
+		### No. 2 Bomber Command, East Anglia area -- HP Heyford, Harrows, AW Whitleys
+		tac_bomber_equipment_0 = {
+			owner = "ENG"
+			amount = 24
+		}
+	}
+	126 = {
+		### No. 3 Bomber Command, Suffolk area -- HP Heyford, Harrows, AW Whitleys
+		tac_bomber_equipment_0 = {
+			owner = "ENG"
+			amount = 36
+		}
+	}
+	130 = {
+		### No. 4 Bomber Command, York area -- HP Heyford, Harrows, AW Whitleys
+		tac_bomber_equipment_0 = {
+			owner = "ENG"
+			amount = 48
+		}
+	}
+	128 = {
+		### No. 5 Bomber Command, Lincoln area -- Fairey Gordons, Battles
+		CAS_equipment_1 = {
+			owner = "ENG"
+			amount = 24
+		}
+	}
+
+	### RAF Coastal Command
+	130 = {
+		### No. 16 Coastal Command -- Vickers Vildebeests
+		nav_bomber_equipment_1 = {
+			owner = "ENG"
+			amount = 24
+		}
+	}
+
+	### RAF Middle East and Africa
+	447 = {
+		### AHQ Egypt
+		fighter_equipment_0 = {
+			owner = "ENG"
+			amount = 24
+		}
+		tac_bomber_equipment_0 = {
+			owner = "ENG"
+			amount = 12
+		}
+		CAS_equipment_1 = {
+			owner = "ENG"
+			amount = 18
+		}
+	}
+
+	### RAF Far East
+	336 = {
+		### RAF Far East
+		CAS_equipment_1 = {
+			owner = "ENG"
+			amount = 32
+		}
+	}
+}
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "ENG"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ENG"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "ENG"
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_0
+			creator = "ENG"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+
+	### Ongoing Ship Production Jan 1 1936 ###
+	# DD: G/H class (x9) ("HMS Gallant" "HMS Garland" "HMS Gipsy" "HMS Glowworm" "HMS Grafton" "HMS Grenade" "HMS Grenville" "HMS Greyhound" "HMS Griffin")
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "ENG"
+		}
+		requested_factories = 3
+		progress = 0.33
+		amount = 3
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "ENG"
+		}
+		requested_factories = 3
+		progress = 0.33
+		amount = 3
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "ENG"
+		}
+		requested_factories = 3
+		progress = 0.33
+		amount = 3
+	}
+	# SS: S-class variant (x2) ("HMS Seawolf" "HMS Narwhal")
+	add_equipment_production = {
+		equipment = {
+			type = submarine_1
+			creator = "ENG"
+			version_name = "S Class"
+		}
+		requested_factories = 2
+		progress = 0.50
+		amount = 3
+	}
+	# CL: Amphion-class variant ("HMS Amphion", Comm. 15-Jun, 1936, "HMS Apollo", Comm. 13-Jan 1936, "HMS Penelope", Comm. 12-Nov 1936)
+	add_equipment_production = {
+		equipment = {
+			type = light_cruiser_1
+			creator = "ENG"
+			version_name = "Amphion Class"
+		}
+		requested_factories = 1
+		progress = 0.95
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_cruiser_1
+			creator = "ENG"
+			version_name = "Amphion Class"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_cruiser_1
+			creator = "ENG"
+			version_name = "Amphion Class"
+		}
+		requested_factories = 1
+		progress = 0.15
+		amount = 1
+	}
+}
+	#####################

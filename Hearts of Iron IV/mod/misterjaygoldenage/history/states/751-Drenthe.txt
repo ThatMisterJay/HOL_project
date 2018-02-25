@@ -1,0 +1,17 @@
+
+state={
+	id=751
+	name="STATE_751"
+
+	history={
+		owner = HOL
+		add_core_of = HOL
+	}
+
+	
+	provinces={
+		9309 9335 13210 13214
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

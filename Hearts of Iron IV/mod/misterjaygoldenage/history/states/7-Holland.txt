@@ -1,16 +1,15 @@
+
 state={
 	id=7
 	name="STATE_7"
 	resources={
-		steel=8
+		steel=8.000
 	}
 
 	history={
 		owner = HOL
 		add_core_of = HOL
-		victory_points = { 391 40 }
-		victory_points = { 3211 10 }
-		victory_points = { 9498 15 }
+		victory_points = { 13212 10 }
 		buildings = {
 			infrastructure = 8
 			arms_factory = 3
@@ -19,20 +18,17 @@ state={
 			air_base = 5
 			3314 = {
 				naval_base = 10
-				coastal_bunker = 2 
-			}
-			9498 = {
-				naval_base = 5
-				coastal_bunker = 5
+				coastal_bunker = 2
 			}
 		}
 		add_extra_state_shared_building_slots = 4
+
 	}
 
 	provinces={
-		68 391 480 3211 3314 8622 9431 9498
+		68 3314 8622 13211 13212
 	}
 	manpower=4123000
-	buildings_max_level_factor=1
-	state_category="megalopolis"
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
 }
