@@ -5,12 +5,11 @@
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
         infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-        infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		infantry = { x = 1 y = 3 }
 	}
 }
 
@@ -25,16 +24,28 @@ division_template = {
 	}
 }
 
-units = {}
-	#India Command
-	
-	#Northern Command
-	
-	
+units = {
+	division= {
+		name = "Calcutta Division"
+		location = 4245
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.7
+	}
+
+	division= {
+		name = "Dacca Division"
+		location = 11929
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.7
+	}
+}
+
 
 air_wings = {
 	### AHQ India
-	
+
 }
 
 

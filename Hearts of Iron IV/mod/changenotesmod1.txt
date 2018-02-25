@@ -3,26 +3,15 @@ Siam due to instability england took parts of burma
 
 America
 Civilwar led to canada taking Alaska, Attu island
+
 HOL
-India
-burma puppeted by hol
-Brazilian coast
 Caribbean sea
-Venezuelan capital
-Guyana
-New Netherland
 Reunion
-Singapore
-Iran coast
-Vlaanderen
-south taiwan
 
 
 #####################
 ####### TODO ########
 #####################
-Add island Dejima near Nagasaki, strait
-Event for japan demanding rest of taiwan?
 Change province names carribean etc
 fascist america generals
 ship names
@@ -32,7 +21,7 @@ rename guyana
 #####################
 ####### IDEA #######
 #####################
-HOL, FRA, SPR in alliance due to winning anglo-french war
+HOL, FRA, and later on SPR in alliance due to winning anglo-french war
 Change colonies to their respective lands
 UK fascist
 Democratic civil war in India due to UK becoming fascist, HOL intervenes and takes control of democratic piece

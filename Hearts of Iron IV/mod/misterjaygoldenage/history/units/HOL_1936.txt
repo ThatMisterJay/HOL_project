@@ -37,71 +37,185 @@ division_template = {
 	support = { engineer = { x = 0 y = 0 } }
 }
 
+division_template = {
+	name = "Stadswacht"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	support = {}
+}
+
 units = {
 	##### OLZ Nederland #####
 	### Veldleger ###
 	# 1e Legerkorps
 	division= {
-		name = "1. Divisie"
-		location = 3314  # Amsterdam
+		name = "1e Grensdivisie"
+		location = 11318  # Groningen
 		division_template = "Infanterie Divisie"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division= {
-		name = "3. Divisie"
-		location = 3211 # The Hague
-		division_template = "Infanterie Divisie"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.23
 		start_equipment_factor = 1
 	}
 
-	# 2e Legerkorps
 	division= {
-		name = "2. Divisie"
-		location = 9498  # Rotterdam
+		name = "2e Grensdivisie"
+		location = 9309  # Groningen
 		division_template = "Infanterie Divisie"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.28
 		start_equipment_factor = 1
 	}
+
 	division= {
-		name = "4. Divisie"
-		location = 9498  # Rotterdam
+		name = "3e Grensdivisie"
+		location = 9403 # Groningen
 		division_template = "Infanterie Divisie"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.36
+		start_equipment_factor = 1
+	}
+
+	division= {
+		name = "4e Grensdivisie"
+		location = 9363  # Gelderland
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 
 	# 3e Legerkorps
 	division= {
-		name = "5. Divisie"
-		location = 6500  # Venlo
+		name = "5e Grensdivisie"
+		location = 11456  # Gelderland
 		division_template = "Infanterie Divisie"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.6
 		start_equipment_factor = 1
 	}
+
 	division= {
-		name = "6. Divisie"
+		name = "6e Grensdivisie"
 		location = 11562  # Maastricht
 		division_template = "Infanterie Divisie"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.33
 		start_equipment_factor = 1
 	}
 
 	# 4e Legerkorps
 	division= {
-		name = "7. Divisie"
-		location = 9335  # Groningen
+		name = "7e Grensdivisie"
+		location = 9309  # Groningen
 		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+
+	division= {
+		name = "8e Grensdivisie"
+		location = 6500  # Groningen
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.22
+		start_equipment_factor = 1
+	}
+
+	division= {
+		name = "9e Grensdivisie"
+		location = 9363  # Groningen
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+
+	division= {
+		name = "10e Grensdivisie"
+		location = 11456  # Groningen
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.38
+		start_equipment_factor = 1
+	}
+
+	division= {
+		name = "11e Grensdivisie"
+		location = 6500  # Brabant
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+
+	division= {
+		name = "1e Havengarnizoen"
+		location = 6336  # Friesland
+		division_template = "Garnizoen Divisie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
+
 	division= {
-		name = "8. Divisie"
-		location = 9335  # Gronigen
-		division_template = "Infanterie Divisie"
+		name = "2e Havengarnizoen"
+		location = 3314  # Noord Holland
+		division_template = "Garnizoen Divisie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
+	}
+
+	division= {
+		name = "3e Havengarnizoen"
+		location = 9498  # Noord Holland
+		division_template = "Garnizoen Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+
+	division= {
+		name = "4e Havengarnizoen"
+		location = 6560  # Vlaanderen
+		division_template = "Garnizoen Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+
+
+
+	division= {
+		name = "Stadswacht Amsterdam"
+		location = 391  # Amsterdam
+		division_template = "Stadswacht"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.6
+	}
+
+	division= {
+		name = "Stadswacht Den Haag"
+		location = 3211  # The Hague
+		division_template = "Stadswacht"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.6
+	}
+
+	division= {
+		name = "Stadswacht Rotterdam"
+		location = 9498  # Vlaanderen
+		division_template = "Stadswacht"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.6
+	}
+
+	division= {
+		name = "Stadswacht Antwerpen"
+		location = 6598  # Vlaanderen
+		division_template = "Stadswacht"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.6
+	}
+
+	division= {
+		name = "Stadswacht Brussel"
+		location = 516  # Vlaanderen
+		division_template = "Stadswacht"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.6
 	}
 
 	#######################
@@ -166,15 +280,15 @@ units = {
 		location = 8085  # Kuwait
 		division_template = "Garnizoen Divisie"
 		start_experience_factor = 0.0
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.15
 	}
 
 	division= {
 		name = "Divisie van Basrah"
-		location = 8085  # Kuwait
+		location = 2089  # Basrah
 		division_template = "Garnizoen Divisie"
 		start_experience_factor = 0.0
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.15
 	}
 
 	##############
