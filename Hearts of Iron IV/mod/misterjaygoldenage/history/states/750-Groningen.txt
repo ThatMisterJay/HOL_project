@@ -5,12 +5,16 @@ state={
 	history={
 		owner = HOL
 		add_core_of = HOL
+		buildings = {
+		 	11318 = { bunker = 3 }
+		}
 	}
 
-	
+
 	provinces={
 		11318 13207
 	}
-	manpower=0
+	manpower=247380
 	buildings_max_level_factor=1.000
+	state_category = rural
 }

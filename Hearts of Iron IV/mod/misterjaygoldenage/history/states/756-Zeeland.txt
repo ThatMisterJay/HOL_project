@@ -6,10 +6,11 @@ state={
 		owner = HOL
 		add_core_of = HOL
 	}
-	
+
 	provinces={
 		480 9431
 	}
-	manpower=0
+	manpower=9372174
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

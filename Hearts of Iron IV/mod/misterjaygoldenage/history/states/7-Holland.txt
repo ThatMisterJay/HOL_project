@@ -9,7 +9,7 @@ state={
 	history={
 		owner = HOL
 		add_core_of = HOL
-		victory_points = { 13212 10 }
+		victory_points = { 13212 40 }
 		buildings = {
 			infrastructure = 8
 			arms_factory = 3
@@ -28,7 +28,7 @@ state={
 	provinces={
 		68 3314 8622 13211 13212
 	}
-	manpower=4123000
+	manpower=4123731
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 }

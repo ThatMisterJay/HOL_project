@@ -1,3 +1,0 @@
-DIN	= "countries/Dutch Raj.txt"
-BUR = "countries/Burma.txt"
-FAE = "countries/FAE.txt"

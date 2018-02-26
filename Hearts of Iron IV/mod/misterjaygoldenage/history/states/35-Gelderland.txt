@@ -8,24 +8,13 @@ state={
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3
-			11456 = {
-				bunker = 3
-
-			}
-			6500 = {
-				bunker = 3
-
-			}
-
+			6500 = { bunker = 3 }
 		}
-		victory_points = {
-			6496 5 
-		}
-
+		victory_points = { 6496 5  }
 	}
 
 	provinces={
-		3262 6496 6500 
+		3262 6496 6500
 	}
 	manpower=1449000
 	buildings_max_level_factor=1.000

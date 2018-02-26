@@ -14,17 +14,13 @@ state={
 				coastal_bunker = 2
 				bunker = 3
 			}
-			11318 = { bunker = 3 }
-			9309 = { bunker = 3 }
-			9363 = { bunker = 3 }
-			9403 = { bunker = 3 }
 		}
 	}
 
 	provinces={
 		6336 13205 13206
 	}
-	manpower=2364000
+	manpower=364741
 	buildings_max_level_factor=1.000
 	state_category=city
 }
