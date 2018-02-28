@@ -7,7 +7,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = BEL
+		owner = FRA
 		victory_points = { 3516 5 }
 		victory_points = { 11519 10 }
 		buildings = {
@@ -21,6 +21,7 @@ state={
 			9444 = { bunker = 1 }
 		}
 		add_core_of = BEL
+		add_core_of = FRA
 	}
 
 	provinces={
